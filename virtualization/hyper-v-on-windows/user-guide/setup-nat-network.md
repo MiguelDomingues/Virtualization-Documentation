@@ -55,11 +55,11 @@ Let's walk through setting up a new NAT network.
     ```console
     PS C:\> Get-NetAdapter
 
-    Name                  InterfaceDescription               ifIndex Status       MacAddress           LinkSpeed
-    ----                  --------------------               ------- ------       ----------           ---------
-    vEthernet (intSwitch) Hyper-V Virtual Ethernet Adapter        24 Up           00-15-5D-00-6A-01      10 Gbps
-    Wi-Fi                 Marvell AVASTAR Wireless-AC Net...      18 Up           98-5F-D3-34-0C-D3     300 Mbps
-    Bluetooth Network ... Bluetooth Device (Personal Area...      21 Disconnected 98-5F-D3-34-0C-D4       3 Mbps
+    Name                   InterfaceDescription               ifIndex Status       MacAddress           LinkSpeed
+    ----                   --------------------               ------- ------       ----------           ---------
+    vEthernet (SwitchName) Hyper-V Virtual Ethernet Adapter        24 Up           00-15-5D-00-6A-01      10 Gbps
+    Wi-Fi                  Marvell AVASTAR Wireless-AC Net...      18 Up           98-5F-D3-34-0C-D3     300 Mbps
+    Bluetooth Network ...  Bluetooth Device (Personal Area...      21 Disconnected 98-5F-D3-34-0C-D4       3 Mbps
 
     ```
 
